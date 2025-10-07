@@ -1,117 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Manoj Panicker · Senior Data Engineer → AI Systems</title>
-  <meta name="description" content="Senior Data Engineer transitioning into AI Systems. RAG, Vector Databases, Databricks, Azure, Airflow, Palantir Foundry & AIP." />
-  <meta property="og:title" content="Manoj Panicker · Data & AI Engineer" />
-  <meta property="og:description" content="RAG · Vector DBs · Databricks · Azure · Foundry" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://manoj-git-projects.github.io/manoj-panicker/" />
-  <meta property="og:image" content="static/preview.png" />
-  <link rel="icon" href="static/favicon.png" />
-  <link rel="stylesheet" href="styles.css" />
+  <title>Manoj Panicker · Data & AI Engineer</title>
+  <meta name="description" content="Senior Data Engineer transitioning into AI Systems | RAG · Vector Databases · Databricks · Azure · Airflow · Palantir Foundry & AIP" />
+  <style>
+    body {font-family: system-ui, sans-serif; background:#0f1115; color:#e7ebf3; margin:0; line-height:1.6;}
+    header, footer {text-align:center; padding:1rem;}
+    h1 {margin-top:2rem; font-size:2rem;}
+    h2 {color:#3b82f6;}
+    a {color:#3b82f6; text-decoration:none;}
+    section {max-width:800px; margin:2rem auto; padding:0 1rem;}
+    .btn {display:inline-block; padding:10px 16px; background:#3b82f6; color:#fff; border-radius:8px; margin:0.3rem;}
+    .btn:hover {background:#2563eb;}
+    .grid {display:grid; gap:1rem;}
+    .card {background:#141826; border:1px solid #23283a; border-radius:12px; padding:1rem;}
+    footer {color:#9aa4b2; border-top:1px solid #23283a; margin-top:3rem;}
+  </style>
 </head>
 <body>
-  <header class="nav">
-    <div class="container">
-      <a class="brand" href="#top">Manoj Panicker</a>
-      <nav>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About</a>
-        <a class="btn" href="#contact">Contact</a>
-      </nav>
-    </div>
+  <header>
+    <h1>Manoj Panicker</h1>
+    <p>Senior Data Engineer → AI Systems | RAG · Vector DBs · Databricks · Azure · Airflow · Palantir Foundry & AIP</p>
+    <a class="btn" href="https://www.linkedin.com/in/manoj-panicker" target="_blank">LinkedIn</a>
+    <a class="btn" href="https://github.com/manoj-git-projects" target="_blank">GitHub</a>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <h1>Senior Data Engineer <span class="arrow">→</span> AI Systems</h1>
-          <p class="tagline">
-            Focus on <strong>RAG</strong>, <strong>Vector Databases</strong>, and
-            <strong>Intelligent Data Pipelines</strong> using <strong>Databricks</strong>,
-            <strong>Azure</strong>, <strong>Airflow</strong>, and <strong>Palantir Foundry (AIP)</strong>.
-          </p>
-          <div class="cta">
-            <a class="btn" href="#projects">View Projects</a>
-            <a class="btn ghost" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/manoj-panicker">LinkedIn</a>
-            <a class="btn ghost" target="_blank" rel="noreferrer" href="https://github.com/manoj-git-projects">GitHub</a>
-          </div>
-        </div>
-        <div class="hero-card">
-          <ul>
-            <li>📍 Abu Dhabi, UAE</li>
-            <li>🎯 RAG · Pinecone · Milvus</li>
-            <li>⚙️ Databricks · Azure · Airflow · Docker</li>
-            <li>🧭 Palantir Foundry & AIP</li>
-            <li>✅ SAFe® 6.0 Certified</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+  <section>
+    <h2>About Me</h2>
+    <p>I'm a Senior Data Engineer transitioning into AI Systems, focused on building RAG pipelines, vector database integrations, and intelligent data architectures using Databricks, Azure, Airflow, and Palantir Foundry (AIP).</p>
+  </section>
 
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>Featured Projects</h2>
-        <div class="grid cards" id="project-cards"></div>
+  <section>
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Semantic Movie Search (Pinecone + FastAPI)</h3>
+        <p>End-to-end semantic search using Hugging Face embeddings and Pinecone vector DB (serverless). Includes ingestion, indexing, and API layer.</p>
+        <a class="btn" href="https://github.com/manoj-git-projects/semantic-movie-search-pinecone" target="_blank">View Project</a>
       </div>
-    </section>
-
-    <section id="skills" class="section alt">
-      <div class="container grid two">
-        <div>
-          <h2>Core Skills</h2>
-          <ul class="pill-list">
-            <li>RAG</li><li>Vector Databases</li><li>Pinecone</li><li>Milvus</li>
-            <li>Databricks</li><li>Azure (ADF, Synapse)</li><li>Airflow</li>
-            <li>PySpark</li><li>SQL</li><li>Docker</li><li>CI/CD</li>
-            <li>Palantir Foundry & AIP</li>
-          </ul>
-        </div>
-        <div>
-          <h2>What I Do</h2>
-          <p>I design AI-ready data platforms—from ingestion to semantic retrieval and LLM integration—with clean architecture, reliability, and measurable outcomes.</p>
-          <ul class="checklist">
-            <li>Medallion models & scalable ETL/ELT</li>
-            <li>High-quality embeddings & RAG pipelines</li>
-            <li>Airflow orchestration & CI/CD</li>
-            <li>APIs, dashboards, and user-centric apps</li>
-          </ul>
-        </div>
+      <div class="card">
+        <h3>Real-Time Data Pipeline (Azure + Databricks + Airflow)</h3>
+        <p>Medallion architecture with streaming ingestion, Delta Lake, and orchestration via Airflow.</p>
       </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container narrow">
-        <h2>About</h2>
-        <p>I'm a Senior Data Engineer transitioning into AI Systems. Recent work includes semantic search, vector databases, and ontology-driven platforms in Palantir Foundry. I love turning complex data into simple, useful products.</p>
+      <div class="card">
+        <h3>Foundry Ontology Dashboard</h3>
+        <p>React dashboard on Palantir Foundry with KPIs, map, and product visualizations powered by OSDK.</p>
       </div>
-    </section>
-
-    <section id="contact" class="section alt">
-      <div class="container narrow">
-        <h2>Contact</h2>
-        <p>Open to collaborations and roles in Data & AI Engineering.</p>
-        <div class="cta">
-          <a class="btn" href="mailto:manoj14feb@gmail.com">Email Me</a>
-          <a class="btn ghost" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/manoj-panicker">Connect on LinkedIn</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <span>© <span id="year"></span> Manoj Panicker.</span>
-      <span class="sep">•</span>
-      <a target="_blank" rel="noreferrer" href="https://github.com/manoj-git-projects">GitHub</a>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <section>
+    <h2>Contact</h2>
+    <p>📍 Abu Dhabi, UAE | ✉️ <a href="mailto:manoj14feb@gmail.com">manoj14feb@gmail.com</a></p>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Manoj Panicker
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
